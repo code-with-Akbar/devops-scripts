@@ -108,7 +108,8 @@ pipeline {
             echo "Check logs above for error details"
         }
         always {
-            echo "Pipeline execution finished at: ${BUILD_TIMESTAMP}"
+            echo "Pipeline execution finnished"
+	    echo "Build ID: ${BUILD_ID}"
         }
     }
 }
